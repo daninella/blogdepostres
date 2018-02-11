@@ -11,8 +11,12 @@ div[class*="columns"]{
 
 li{
   list-style: none;
+  padding: 10px;
+  text-align: center;
 }
-
+p{
+  color: white;
+}
 a{
   color: white;
 }
@@ -35,7 +39,7 @@ p{
 }
 
 body {
-  background: url(/Users/imac/Desktop/Dani/C3_U3_L2_OpcionesCol/img/postres_veganos.png)
+  background: url(/Users/nella/Desktop/blogdepostres-master/img/postres_veganos.png)
 }
 
 .field {
@@ -83,4 +87,51 @@ body {
 section .fondo{
   width: 600px;
   background-color: rgba(153, 153, 153, 0.7) ;
+}
+
+.imagenes{
+  width: 100px;
+}
+
+.list-group {
+  margin-bottom: 1rem;
+  border: 3px solid #e6e6e6;
+  border-radius: 0;
+  box-shadow: none;
+  overflow: hidden;
+  color: #0a0a0a;
+}
+
+.list-group > :last-child {
+  margin-bottom: 0;
+}
+
+.list-group-item {
+  padding: 1rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.list-group-item > :last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.list-group-item.active {
+  color: #ffffff;
+  background-color: #6fbb9c;
+  border-color: 1px solid #6fbb9c;
+}
+
+.list-group-item:hover, .list-group-item:focus {
+  background-color: rgba(230, 230, 230, 0.3);
+}
+
+.list-group-item:hover.active, .list-group-item:focus.active {
+  background-color: #1779ba;
+}
+
+.list-group-item.disabled, .list-group-item.disabled:hover, .list-group-item.disabled:focus, .list-group-item[disabled], .list-group-item[disabled]:hover, .list-group-item[disabled]:focus {
+  color: #8a8a8a;
+  cursor: not-allowed;
+  background-color: #fefefe;
 }
