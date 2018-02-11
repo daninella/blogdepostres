@@ -1,5 +1,5 @@
 div[class*="columns"]{
-  background-color: rgba(153, 153, 153, 0.7) ;
+  background-color: rgba(111, 187, 156, 0.8) ;
   font-size: 1rem;
 }
 
@@ -21,11 +21,6 @@ a{
   color: white;
 }
 
-.parr{
-  text-align: right;
-  color: #ffffff;
-}
-
 @import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);
 
 * {
@@ -35,11 +30,11 @@ a{
 }
 
 p{
-  font-size: 25px;
+  font-size: 20px;
 }
 
 body {
-  background: url(/Users/nella/Desktop/blogdepostres-master/img/postres_veganos.png)
+  background: url(/Users/nella/Desktop/blogdepostres-master/blogdepostres/img/postres_veganos.png)
 }
 
 .field {
@@ -134,4 +129,34 @@ section .fondo{
   color: #8a8a8a;
   cursor: not-allowed;
   background-color: #fefefe;
+}
+.list{
+  margin-bottom: 3rem;
+  border: 2px solid #e6e6e6;
+  border-radius: 0;
+  box-shadow: none;
+  overflow: hidden;
+  color: #0a0a0a;
+}
+.list-2{
+  text-align: left;
+}
+.fondo{
+  background-color: rgba(153, 153, 153, 0.7) ;
+}
+h1{
+  color: white;
+  line-height: 40px;
+  text-align: right;
+  margin-top: 15px;
+}
+h3{
+  color: white;
+  line-height: 40px;
+
+  margin-top: 15px;
+}
+.imagen{
+  text-align: center;
+  width: 200px;
 }
