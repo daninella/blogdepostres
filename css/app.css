@@ -146,17 +146,29 @@ section .fondo{
 }
 h1{
   color: white;
-  line-height: 40px;
+  line-height: 50px;
   text-align: right;
   margin-top: 15px;
 }
 h3{
   color: white;
   line-height: 40px;
-
   margin-top: 15px;
+}
+h6{
+  color: white;
+  margin-left: 5px;
+  margin-top: 10px;
 }
 .imagen{
   text-align: center;
   width: 200px;
+}
+.area{
+  width: 700px;
+}
+.comparte{
+  text-align: center;
+  margin-top: -60px;
+  margin-left: 700px;
 }
